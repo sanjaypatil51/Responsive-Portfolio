@@ -244,8 +244,7 @@ a:active{
 
 #contact-name,#contact-email{
     width:920px;   
-    border:5px solid gray;
-    margin:0;
+    border:5px solid gray;    
     margin-left:10px;
 }
 textarea{
@@ -323,16 +322,16 @@ button:focus{
     }
     @media only screen and (min-width:641px) and (max-width: 768px) {
         html, body, .wrapper{      
-          width:768px;
+          width:740px;
           height:100%;
           margin:0;
           
         }
         .container{
-            width:728px;
+            width:700px;
         }
         #contact-name,#contact-email, textarea{
-            width:668px;
+            width:660px;
             margin-left:10px;
         }
         textarea{
@@ -340,14 +339,24 @@ button:focus{
         }       
         
         }
-    @media only screen and (min-width:768px) and (max-width: 980px){
+    @media only screen and (min-width:769px) and (max-width: 980px){
 
         html, body, .wrapper{      
-            width:980px;
+            width:950px;
             height:100%;
             margin:0;
             
           }
+        .container{
+            width:920px;
+        }
+        #contact-name,#contact-email, textarea{
+            width:880px;
+            margin-left:10px;
+        }
+        textarea{
+            height:350px;
+        }       
 
     }
 
